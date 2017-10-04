@@ -1,0 +1,12 @@
+body {
+    background-color: #ffffff;
+    transition: 5s;
+}
+
+.container {
+    width: 1170px;
+}
+
+.navbar-static-top {
+    height: 100px;
+}
