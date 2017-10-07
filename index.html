@@ -10,23 +10,41 @@
 
 <body>
 	<nav class="navbar navbar-default navbar-static-top text-center">
-		<div class="container">
-		<div class="navbar-header">
-		<a class="navbar-brand" href="#"><img src="img/twLogo.png" width="120px" alt="twitch logo"></a>
-		<div class="container paddin">
-			<button type="button" class="btn btn-info">Show All Users</button>
-			<button type="button" class="btn btn-info">Only Alive</button>
-			<button type="button" class="btn btn-info">Only Offline</button>
+		<div class="container responsive-size">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">
+					<img src="img/twLogo.png" width="50px" alt="twitch logo">
+				</a>
+			</div>
+
+			<ul class="nav navbar-nav">
+				<li id="all">
+					<a href="#">All channels</a>
+				</li>
+				<li id="live">
+					<a href="#" id="live">Online</a>
+				</li>
+				<li id="dead">
+					<a href="#">Offline</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="jumbotron responsive-size">
+		<div id="display">
+
 		</div>
 	</div>
-	</nav>
-	<div class="jumbotron ">
-		<h3 class="text-center">There is no result yet, create a new query :)</h3>
-	</div>
 
-	<nav class="navbar navbar-default navbar-fixed-bottom text-center">
+	<nav class="navbar navbar-default navbar-fixed-bottom text-center ">
 		<div class="container">
-			<img src="img/fccLogo.png" width="120px" /><small> wikipedia viewer created with <i class="fa fa-search" aria-hidden="true"></i> and <i class="fa fa-google" aria-hidden="true"></i> by <a href="http://osinpaul.ru" target="_blank"> osinpaul</a></small>
+			<img src="img/fccLogo.png" width="120px" />
+			<small>
+				<a href="//twitch.tv">twitch.tv</a> viewer created with
+				<i class="fa fa-search" aria-hidden="true"></i> and
+				<i class="fa fa-google" aria-hidden="true"></i> by
+				<a href="http://osinpaul.ru" target="_blank"> osinpaul</a>
+			</small>
 		</div>
 	</nav>
 	<script src="js/jquery.min.js"></script>

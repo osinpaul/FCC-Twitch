@@ -3,10 +3,73 @@ body {
     transition: 5s;
 }
 
-.container {
-    width: 1170px;
+.online, .offline {
+    height: 100px;
 }
 
-.navbar-static-top {
-    height: 100px;
+.jumbotron {
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#icon img{
+/*width:80px;
+    height: 80px;*/
+    border-radius: 50px;
+}
+
+.navbar-fixed-bottom{
+    padding: 1%;
+}
+
+#display .row {
+    background-color: #ffffff;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 10px;
+    line-height: 1.5;
+}
+
+#online {
+    background-color: 	#c4eec4 !important;
+}
+
+.date {
+    font-size: 10px;
+    margin-bottom: 1%;
+}
+
+.date, .users, .descr, .chname, #SisOnline {
+    text-align: right;
+}
+
+.users {
+    font-size: 17px;
+    margin-bottom: 1%;
+}
+
+.descr {
+    font-size: 11px;
+}
+
+.chname {
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+.responsive-size{
+    width: 50%;
+}
+
+#offline {
+    background-color: #f5f5f5 !important;
+}
+
+#offline .date, #offline .users, #offline .icon, #offline .descr {
+    visibility: hidden;
+}
+
+ #online #isOnline {
+    visibility: hidden;
 }
